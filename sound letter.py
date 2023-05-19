@@ -1,0 +1,20 @@
+word = input("please type a word: ")
+word.lower()
+list = ["a" , "e" , "u" , "i" , "o"]
+new_list =dict()
+
+for i in list:
+    for j in word:
+       if j == i :
+           if i in new_list:
+               new_list[i] +=1
+
+           else :
+               new_list[i] = 1
+
+print(new_list)                  
+               
+           
+          
+
+
